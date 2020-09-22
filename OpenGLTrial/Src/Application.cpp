@@ -45,9 +45,6 @@ int main(void)
 
         /* Swap front and back buffers */
         glfwSwapBuffers(window);
-         
-
-        =
         glfwPollEvents();
     }
     glfwTerminate();
