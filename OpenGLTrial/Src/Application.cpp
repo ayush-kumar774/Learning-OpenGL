@@ -34,7 +34,7 @@ int main(void)
         /* Render here */
         glClear(GL_COLOR_BUFFER_BIT);
         
-        createTriangle();
+        createTriangle(); // This function is defined in VertexBuffer.h
 
         // Generic way of rendering a triangle
         /*glBegin(GL_TRIANGLES);
